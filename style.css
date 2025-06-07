@@ -2,21 +2,27 @@
     font-family:'Roboto';
     margin: 0%;
 }
-
+/* ****** NAVBAR ****** */
 .head{
- background-color: brown;
+ background-color: #fff;
     width: 100%;
     height: 80px;
     justify-items: center;
+    position: fixed;
+    top: 0;      
+    left: 0; 
+    z-index: 1000;          
 }
 .nav-bar{
-    background-color: blueviolet;
+    background-color: #fff;
     width: 80%;
     height: 80px;
     display: flex;
+    
+    
 }
 .swiggy-logo{
-    background-color: antiquewhite;
+    background-color: #fff;
     height: 80px;
     width: 90px;
     display: flex;
@@ -27,7 +33,7 @@
     margin-left: 10px;
 }
 .other-div{
-    background-color:hotpink;
+    background-color:#fff;
     width: 90px; 
     padding-left: 20px;  
 }
@@ -42,16 +48,444 @@
 }
 .list{
     height: 80px;
-    width: 83%;
-    background-color: antiquewhite;
+    width: 90%;
+    background-color: #fff;
     display: flex;
     align-items: center;
     justify-content: end;
 
 }
-.nav-list{
+.nav-list{  
+    width: 85%;
     list-style-type: none;
     display: flex; 
+    justify-content:flex-end;
+}
+.sec-1{
+    background-color: #fff;
+    height: 80px;
+    width: fit-content;
+    justify-content:center;
+    align-content: center;
+    margin-left: 55px;
+    font-size: 16px;
+    font-weight:500 ;
+}
+.sec-1 a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.sec-1  a:hover{
+    color: rgb(255, 89, 0);
+}
+/* ****** What's on your mind section ******* */
+.main-sec{
+    width: 1350px;
+    height: 2500px;
+    background-color: antiquewhite; 
+    padding-left: 170px;
+    
+}
+.container1{
+    height: 250px;
+    width: 1138px;
+    background-color: aqua;
+    padding: 16px;
+    
+}
+.container1 h3{
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.item-list{
+    height: 184px;
+    width: 100%;
+    background-color: greenyellow;
+    display: inline-flex;
+}
+.item{
+    height: 184px;
+    width: 170px;
+    background-color: aquamarine;
+    padding-left: 15px;
+}
+.item img{
+    height: 180px;
+    width: 144px;
+}
+.item2{
+    height: 184px;
+    width: 170px;
+    background-color: aquamarine;  
+}
+.item2 img{
+    height: 180px;
+    width: 144px;
+}
+.line{
+    height: 50px;
+    width: 1170px;
+    background-color: bisque;
+   align-content: center;
+}
+/* ******Top restaurant chains in Chhindwara******* */
+.container2{
+    height: 350px;
+    width: 1138px;
+    background-color: aqua;
+    padding: 16px;
+}
+.container2 h3{
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.resto-list{
+    height: 286px;
+    width: 100%;
+    display: inline-flex;
+    background-color: antiquewhite;
+}
+.resto1{
+    height: 286px;
+    width: 273px;
+    background-color:green;
+    margin-right: 20px;
+}
+.resto1 img{
+    width: 273px;
+    height: 182px;
+    border-radius: 20px;
+}
+.cont{
+    height:80px ;
+    width: 250px;
+    background-color: blue;
+    padding: 10px 0px 0px 15px;
+}
+/* ******Restaurants with online food delivery in Chhindwara********* */
+.heading h2{
+margin-bottom: 10px;
+}
+.option{
+    height: 44px;
+    width: 1170px;
+    background-color: blueviolet;
+    display: inline-flex; 
+    align-items: center;  
+}
+.filter{
+   width: 60px;
+   height: 35px;
+   background-color: rgb(142, 48, 22); 
+   font-size: 14px;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+.sort{
+   width: 85px;
+   height: 35px;
+   background-color: rgb(221, 221, 11); 
+   font-size: 14px;
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+.fast{
+   width: 125px;
+   height: 35px;
+   background-color: beige;
+   border-radius: 15px;
+   font-size: 14px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+.rate{
+   width: 100px;
+   height: 35px;
+    background-color: rgb(143, 69, 33); 
+    border-radius: 15px;
+     font-size: 14px;
+      display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+.pure{
+   width: 95px;
+   height: 35px;
+    background-color: rgb(128, 138, 133); 
+    border-radius: 15px;
+     font-size: 14px;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+.offers{
+   width: 75px;
+   height: 35px;
+   background-color: rgb(81, 128, 104);
+   border-radius: 15px;
+    font-size: 14px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 10px;
+}
+.rs{
+   width: 145px;
+   height: 35px;
+    background-color: rgb(12, 39, 115); 
+    border-radius: 15px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+     font-size: 14px;
+     margin-right: 10px;
+}
+.rs2{
+   width:  138px;
+   height: 35px;
+    background-color: rgb(179, 0, 21); 
+    border-radius: 15px;
+    font-size: 14px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+  
+}
+.container3{
+    height: 950px;
+    width: 1170px;
+    background-color: rgb(9, 217, 148);
+    margin-bottom: 20px;    
+}
+.four{
+    height: 290px;
+    width: 1170px;
+    background-color: rgb(205, 118, 5);   
+    margin-top: 30px;
+    display: flex;
+    
+}
+.four1{
+    height: 290px;
+    width: 270px;
+    background-color:green;
+    
+}
+.four1 img{
+    width: 270px;
+    height: 180px;
+    border-radius: 20px;
+}
+.cont1{
+    height:90px ;
+    width: 255px;
+    background-color: blue;
+    padding: 10px 0px 0px 15px;
+}
+.container4{
+    height: 280px;
+    width: 1170px;
+    background-color: rgb(135, 184, 168);
+}
+.contfour{
+    background-color: chartreuse;
+    height: 80px;
+    width: 1170px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.cont4{
+    height: 50px;
+    width: 250px;
+    background-color: antiquewhite;
+    border: 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.heading1 h2{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+/* ******* Footer  ******* */
+.footer{
+    height: 750px;
+    width: 1520px;
+    background-color: aquamarine;
+}
+.footer-logo{
+    height: 130px;
+    width:1520px;
+    background-color: rgb(168, 101, 13);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-logo{
+    height: 120px;
+    width: 1200px;    
+    background-color: beige;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.fot-text{
+    height: 65px;
+    width: 1200px;
+    background-color: rgb(4, 55, 38);
+    display: inline-flex;
+    
+    align-items: center;
+}
+.logo-1{
+    height: 65px;
+    width: 200px;
+    background-color: rgb(7, 41, 41);
+    margin-left: 20px;
+}
+.logo-1 img{
+    height: 64px;
+    width: 201px;
+    background-color: rgb(7, 41, 41);
+}
+.logo-2{
+    height: 65px;
+    width: 200px;
+    background-color: rgb(7, 41, 41);
+    margin-left: 20px;
+}
+.logo-2 img{
+    height: 64px;
+    width: 201px;
+    background-color: rgb(7, 41, 41);
+}
+
+.fot-cont{
+    height: 592px;
+     width:1520px;
+     background-color: rgb(75, 13, 208);
+     display: inline-flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     margin-top: 20px;
+}
+.fony-cont-main{
+    width: 1200px;
+    height:592px ;
+    background-color: rgb(18, 187, 130);
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.swig-image {
+    background-color: green;
+    width: 250px;
+    height: 592px;
+}
+.swig-image img{
+    width: 160px;
+    height: 49px;
+    margin-top: 40px;
+}
+.swig-image p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.company{
+    height:592px;
+    width: 150px;
+    background-color: antiquewhite;
+}
+.company ul{
+    height: 455px;
+    width: 150px;
+    background-color:yellow ;
+    list-style-type: none; 
+    margin: 40px 0px 0px 0px ;
+    padding: 0px; 
+}
+.contact{
+    height:592px ;
+    width: 165px;
+    background-color: rgb(92, 60, 19);
+}
+.contact ul{
+    height: 255px;
+    width: 165px;
+    background-color:yellow ;
+    list-style-type: none; 
+    margin: 40px 0px 0px 0px ;
+    padding: 0px;
+}
+.city{
+     height:592px ;
+    width: 125px;
+    background-color: rgb(92, 60, 19);
+}
+.city ul{
+    height: 292px;
+    width: 125px;
+    background-color:yellow ;
+    list-style-type: none; 
+    margin: 40px 0px 0px 0px ;
+    padding: 0px;
+}
+.life{
+    height:592px ;
+    width: 145px;
+    background-color: rgb(92, 60, 19);
+}
+.life ul{
+    height: 255px;
+    width: 145px;
+    background-color:yellow ;
+    list-style-type: none; 
+    margin: 40px 0px 0px 0px ;
+    padding: 0px;
+}
+.fot-list{
+    margin-top: 18px;
+}
+.Social{
+    height: 255px;
+    width: 145px;
+    background-color:yellow ;
+    list-style-type: none; 
+    margin: 40px 0px 0px 0px ;
+    padding: 0px;
+}
+.social-link{
+    height: 18px;
+    width: 145px;
+    background-color: antiquewhite;
+    display: inline-flex;
     justify-content: center;
     
+    margin-top: 15px;
+}
+.soc{
+    height: 18px;
+    width: 16px;
+    background-color: blue;
+    margin-right: 13px;
+    
+}
+.soc img{
+    height: 18px;
+    width: 16px;
 }
