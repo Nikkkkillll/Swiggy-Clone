@@ -11,7 +11,8 @@
     position: fixed;
     top: 0;      
     left: 0; 
-    z-index: 1000;          
+    z-index: 1000;  
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);         
 }
 .nav-bar{
     background-color: #fff;
@@ -83,14 +84,14 @@
 .main-sec{
     width: 1350px;
     height: 2500px;
-    background-color: antiquewhite; 
+    background-color:#fff; 
     padding-left: 170px;
     
 }
 .container1{
     height: 250px;
     width: 1138px;
-    background-color: aqua;
+    background-color: #fff;
     padding: 16px;
     
 }
@@ -101,13 +102,13 @@
 .item-list{
     height: 184px;
     width: 100%;
-    background-color: greenyellow;
+    background-color: #fff;
     display: inline-flex;
 }
 .item{
     height: 184px;
     width: 170px;
-    background-color: aquamarine;
+    background-color: #fff;
     padding-left: 15px;
 }
 .item img{
@@ -117,7 +118,7 @@
 .item2{
     height: 184px;
     width: 170px;
-    background-color: aquamarine;  
+    background-color: #fff;  
 }
 .item2 img{
     height: 180px;
@@ -126,14 +127,14 @@
 .line{
     height: 50px;
     width: 1170px;
-    background-color: bisque;
+    background-color: #fff;
    align-content: center;
 }
 /* ******Top restaurant chains in Chhindwara******* */
 .container2{
     height: 350px;
     width: 1138px;
-    background-color: aqua;
+    background-color: #fff;
     padding: 16px;
 }
 .container2 h3{
@@ -144,12 +145,12 @@
     height: 286px;
     width: 100%;
     display: inline-flex;
-    background-color: antiquewhite;
+    background-color: #fff;
 }
 .resto1{
     height: 286px;
     width: 273px;
-    background-color:green;
+    background-color:#fff;
     margin-right: 20px;
 }
 .resto1 img{
@@ -160,7 +161,7 @@
 .cont{
     height:80px ;
     width: 250px;
-    background-color: blue;
+    background-color: #fff;
     padding: 10px 0px 0px 15px;
 }
 /* ******Restaurants with online food delivery in Chhindwara********* */
@@ -170,108 +171,116 @@ margin-bottom: 10px;
 .option{
     height: 44px;
     width: 1170px;
-    background-color: blueviolet;
+    background-color: #fff;
     display: inline-flex; 
     align-items: center;  
 }
 .filter{
    width: 60px;
    height: 35px;
-   background-color: rgb(142, 48, 22); 
+   background-color: #fff; 
    font-size: 14px;
    border-radius: 15px;
    display: flex;
    justify-content: center;
    align-items: center;
    margin-right: 10px;
+   border: 1px solid rgba(2, 6, 12, 0.15);
 }
 .sort{
    width: 85px;
    height: 35px;
-   background-color: rgb(221, 221, 11); 
+   background-color: #fff; 
    font-size: 14px;
    border-radius: 15px;
    display: flex;
    justify-content: center;
    align-items: center;
    margin-right: 10px;
+   border: 1px solid rgba(2, 6, 12, 0.15);
 }
 .fast{
    width: 125px;
    height: 35px;
-   background-color: beige;
+   background-color: #fff;
    border-radius: 15px;
    font-size: 14px;
    display: flex;
    justify-content: center;
    align-items: center;
    margin-right: 10px;
+   border: 1px solid rgba(2, 6, 12, 0.15);
 }
 .rate{
    width: 100px;
    height: 35px;
-    background-color: rgb(143, 69, 33); 
+    background-color: #fff; 
     border-radius: 15px;
      font-size: 14px;
       display: flex;
    justify-content: center;
    align-items: center;
    margin-right: 10px;
+   border: 1px solid rgba(2, 6, 12, 0.15);
 }
 .pure{
    width: 95px;
    height: 35px;
-    background-color: rgb(128, 138, 133); 
+    background-color: #fff; 
     border-radius: 15px;
      font-size: 14px;
      display: flex;
    justify-content: center;
    align-items: center;
    margin-right: 10px;
+   border: 1px solid rgba(2, 6, 12, 0.15);
 }
 .offers{
    width: 75px;
    height: 35px;
-   background-color: rgb(81, 128, 104);
+   background-color: #fff;
    border-radius: 15px;
     font-size: 14px;
     display: flex;
    justify-content: center;
    align-items: center;
    margin-right: 10px;
+   border: 1px solid rgba(2, 6, 12, 0.15);
 }
 .rs{
    width: 145px;
    height: 35px;
-    background-color: rgb(12, 39, 115); 
+    background-color: #fff; 
     border-radius: 15px;
     display: flex;
    justify-content: center;
    align-items: center;
      font-size: 14px;
      margin-right: 10px;
+     border: 1px solid rgba(2, 6, 12, 0.15);
 }
 .rs2{
    width:  138px;
    height: 35px;
-    background-color: rgb(179, 0, 21); 
+    background-color: #fff; 
     border-radius: 15px;
     font-size: 14px;
     display: flex;
    justify-content: center;
    align-items: center;
+   border: 1px solid rgba(2, 6, 12, 0.15);
   
 }
 .container3{
     height: 950px;
     width: 1170px;
-    background-color: rgb(9, 217, 148);
+    background-color: #fff;
     margin-bottom: 20px;    
 }
 .four{
     height: 290px;
     width: 1170px;
-    background-color: rgb(205, 118, 5);   
+    background-color: #fff;   
     margin-top: 30px;
     display: flex;
     
@@ -279,7 +288,7 @@ margin-bottom: 10px;
 .four1{
     height: 290px;
     width: 270px;
-    background-color:green;
+    background-color:#fff;
     
 }
 .four1 img{
@@ -290,16 +299,16 @@ margin-bottom: 10px;
 .cont1{
     height:90px ;
     width: 255px;
-    background-color: blue;
+    background-color: #fff;
     padding: 10px 0px 0px 15px;
 }
 .container4{
     height: 280px;
     width: 1170px;
-    background-color: rgb(135, 184, 168);
+    background-color: #fff;
 }
 .contfour{
-    background-color: chartreuse;
+    background-color: #fff;
     height: 80px;
     width: 1170px;
     display: inline-flex;
@@ -311,12 +320,18 @@ margin-bottom: 10px;
 .cont4{
     height: 50px;
     width: 250px;
-    background-color: antiquewhite;
+    background-color: #fff;
     border: 1px gray;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+    border: 1px solid rgba(2, 6, 12, 0.15)
+}
+.cont4 p{
+    color: rgb(255, 82, 0);
+    font-weight: 600;
+    
 }
 .heading1 h2{
     margin-left: 30px;
@@ -326,28 +341,28 @@ margin-bottom: 10px;
 .footer{
     height: 750px;
     width: 1520px;
-    background-color: aquamarine;
+    background-color: rgb(240, 240, 245);
 }
 .footer-logo{
     height: 130px;
     width:1520px;
-    background-color: rgb(168, 101, 13);
+    background-color: rgb(240, 240, 245);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .text-logo{
     height: 120px;
-    width: 1200px;    
-    background-color: beige;
-    display: inline-flex;
+    width: 1010px;    
+    background-color: rgb(240, 240, 245);
+    display:flex;
     justify-content: center;
     align-items: center;
 }
 .fot-text{
     height: 65px;
     width: 1200px;
-    background-color: rgb(4, 55, 38);
+    background-color: rgb(240, 240, 245);
     display: inline-flex;
     
     align-items: center;
@@ -355,30 +370,30 @@ margin-bottom: 10px;
 .logo-1{
     height: 65px;
     width: 200px;
-    background-color: rgb(7, 41, 41);
+    background-color: rgb(240, 240, 245);
     margin-left: 20px;
 }
 .logo-1 img{
     height: 64px;
     width: 201px;
-    background-color: rgb(7, 41, 41);
+    background-color:rgb(240, 240, 245);
 }
 .logo-2{
     height: 65px;
     width: 200px;
-    background-color: rgb(7, 41, 41);
+    background-color: rgb(240, 240, 245);
     margin-left: 20px;
 }
 .logo-2 img{
     height: 64px;
     width: 201px;
-    background-color: rgb(7, 41, 41);
+    background-color: rgb(240, 240, 245);
 }
 
 .fot-cont{
     height: 592px;
      width:1520px;
-     background-color: rgb(75, 13, 208);
+     background-color: rgb(240, 240, 245);
      display: inline-flex;
      justify-content: center;
      justify-content: space-evenly;
@@ -387,13 +402,13 @@ margin-bottom: 10px;
 .fony-cont-main{
     width: 1200px;
     height:592px ;
-    background-color: rgb(18, 187, 130);
+    background-color: rgb(240, 240, 245);
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
 }
 .swig-image {
-    background-color: green;
+    background-color: rgb(240, 240, 245);
     width: 250px;
     height: 592px;
 }
@@ -409,12 +424,12 @@ margin-bottom: 10px;
 .company{
     height:592px;
     width: 150px;
-    background-color: antiquewhite;
+    background-color: rgb(240, 240, 245);
 }
 .company ul{
     height: 455px;
     width: 150px;
-    background-color:yellow ;
+    background-color:rgb(240, 240, 245) ;
     list-style-type: none; 
     margin: 40px 0px 0px 0px ;
     padding: 0px; 
@@ -422,12 +437,12 @@ margin-bottom: 10px;
 .contact{
     height:592px ;
     width: 165px;
-    background-color: rgb(92, 60, 19);
+    background-color: rgb(240, 240, 245);
 }
 .contact ul{
     height: 255px;
     width: 165px;
-    background-color:yellow ;
+    background-color:rgb(240, 240, 245) ;
     list-style-type: none; 
     margin: 40px 0px 0px 0px ;
     padding: 0px;
@@ -435,12 +450,12 @@ margin-bottom: 10px;
 .city{
      height:592px ;
     width: 125px;
-    background-color: rgb(92, 60, 19);
+    background-color: rgb(240, 240, 245);
 }
 .city ul{
     height: 292px;
     width: 125px;
-    background-color:yellow ;
+    background-color:rgb(240, 240, 245);
     list-style-type: none; 
     margin: 40px 0px 0px 0px ;
     padding: 0px;
@@ -448,12 +463,12 @@ margin-bottom: 10px;
 .life{
     height:592px ;
     width: 145px;
-    background-color: rgb(92, 60, 19);
+    background-color: rgb(240, 240, 245);
 }
 .life ul{
     height: 255px;
     width: 145px;
-    background-color:yellow ;
+    background-color:rgb(240, 240, 245) ;
     list-style-type: none; 
     margin: 40px 0px 0px 0px ;
     padding: 0px;
@@ -464,7 +479,7 @@ margin-bottom: 10px;
 .Social{
     height: 255px;
     width: 145px;
-    background-color:yellow ;
+    background-color:rgb(240, 240, 245) ;
     list-style-type: none; 
     margin: 40px 0px 0px 0px ;
     padding: 0px;
@@ -472,7 +487,7 @@ margin-bottom: 10px;
 .social-link{
     height: 18px;
     width: 145px;
-    background-color: antiquewhite;
+    background-color: rgb(240, 240, 245);
     display: inline-flex;
     justify-content: center;
     
@@ -481,7 +496,7 @@ margin-bottom: 10px;
 .soc{
     height: 18px;
     width: 16px;
-    background-color: blue;
+    background-color: rgb(240, 240, 245);
     margin-right: 13px;
     
 }
