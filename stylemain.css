@@ -1,0 +1,88 @@
+*{
+    font-family:'Roboto';
+    margin: 0%;
+}
+.head{
+    height: 118px;
+    width: 1536px;
+    background-color: #ff5200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-bar{
+    height: 54px;
+    width: 1228px;
+    background-color: rgb(31, 123, 204);
+    display: inline-flex;
+    align-items: center;
+    
+}
+.nav-bar img{
+    height: 48px;
+    width: 160px;
+    margin:0px 440px 0px 0px;;
+}
+.swiggycorporate{
+    height: 48px;
+    width: 140px;
+    background-color: #0fd308;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 20px 0px 0px;
+}
+.swiggycorporate a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.partnerus{
+    height: 48px;
+    width: 130px;
+    background-color: #d3c208;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 20px 0px 0px;
+
+}
+.partnerus a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.getapp{
+    height: 54px;
+    width: 149px;
+    background-color: #2608d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin:0px 30px 0px 0px;
+}
+.getapp a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.signin{
+    height: 54px;
+    width: 135px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}
+.signin a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
