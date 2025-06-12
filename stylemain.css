@@ -13,7 +13,7 @@
 .nav-bar{
     height: 54px;
     width: 1228px;
-    background-color: rgb(31, 123, 204);
+    background-color: #ff5200;
     display: inline-flex;
     align-items: center;
     
@@ -26,7 +26,7 @@
 .swiggycorporate{
     height: 48px;
     width: 140px;
-    background-color: #0fd308;
+    background-color: #ff5200;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,7 +41,7 @@
 .partnerus{
     height: 48px;
     width: 130px;
-    background-color: #d3c208;
+    background-color: #ff5200;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,7 +57,7 @@
 .getapp{
     height: 54px;
     width: 149px;
-    background-color: #2608d3;
+    background-color: #ff5200;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,4 +85,33 @@
     font-size: 16px;
     font-weight: 600;
     color: #ffffff;
+}
+/***** container2 *****/
+.container2{
+    width: 1536px;
+    height: 200px;
+    background-color: aqua;
+    display: grid;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+}
+.con2-text{
+   height: 112px;
+   width: 796px;
+   background-color: #8f7bcf7e; 
+}
+.con2-text h1{
+   font-size: 48px;
+   color: #fff;
+   text-align: center;
+}
+.cont2-select {
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+}
+.cont2-select input{
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
 }
