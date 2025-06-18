@@ -189,3 +189,12 @@
     border-bottom-right-radius: 15px;
     border-top-right-radius: 15px;
 }
+/* ***** container3 ***** */
+.container3{
+    width: 1521px;
+    height: 396px;
+    background-color: rgb(66, 222, 170);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
