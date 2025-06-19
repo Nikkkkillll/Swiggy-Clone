@@ -94,6 +94,19 @@
     display: grid;
     justify-content: center;
     padding: 60px 0px 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.img1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.img2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 .con2-text{
